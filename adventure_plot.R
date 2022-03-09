@@ -22,15 +22,15 @@ d1<-as.ts(aAction)
 action_raw<-d1
 plot(action_raw)
 
-e1x2 <- ts(d2) #????????????
-plot(d2, type="b") #????????????
+e1x2 <- ts(d2)
+plot(d2, type="b") 
 acf(e1x2)
 pacf(e1x2)
 e1x2m = matrix(e1x2, ncol=4,byrow=TRUE)
 adventure.col.means=apply(e1x2m,2,mean)
 plot(adventure.col.means,type="b", main="Seasonly Means Plot for adventure", xlab="Season",
      ylab="Mean")
-adventure=diff(e1x2,4)#???????????? s=12 ??????
+adventure=diff(e1x2,4)
 plot(adventure)
 
 
