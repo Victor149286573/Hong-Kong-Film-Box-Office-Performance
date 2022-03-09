@@ -1,6 +1,6 @@
 # STAT2011 Report
-# Ruoyang CUI 1155160277
-# Shuyang QIU 1155157147
-# Wenyi WU 1155157075
-# Weidi MIN 1155157146
-# Yuji LI 1155157174
+# Ruoyang CUI 
+# Shuyang QIU 
+# Wenyi WU 
+# Weidi MIN
+# Yuji LI 
